@@ -1,0 +1,20 @@
+{
+  "author_name": "Dr. Sebastian Schmeier",
+  "author_title":"Research Group Leader<br />Senior Lecturer in Bioinformatics/Genomics",
+  "author_company":"IMMS, Massey University",
+  "author_company_url":"http://inms.massey.ac.nz",  
+  "author_company_place":"Auckland, New Zealand",  
+  "author_email": "s.schmeier@gmail.com",
+  "author_url":"https://sschmeier.com",
+  "author_twitter":"sschmeier",
+  "author_linkedin":"sschmeier",
+  "author_orcid_url":"http://goo.gl/foiXWa",
+  "author_scholar_url":"http://goo.gl/Ljdybg",
+  "author_gitlab":"s-schmeier",
+  "year":"2018",
+  "git_username": "sschmeier",
+  "repository_namespace": "sschmeier",
+  "repository_name": "cookie-bs4-example",
+  "repository_description": "An example cookie-bs4 project template",
+  "package_name": "ProjectX"
+}

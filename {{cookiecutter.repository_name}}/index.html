@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{cookiecutter.package_name}}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- academicons -->
+    <link rel="stylesheet" href="css/academicons-1.8.2/css/academicons.min.css"/>
+    <!-- FA -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 96x96" href="img/favicon.ico">
+
+    
+  </head>
+
+  <body>
+    
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img style="max-height:26px;" src="img/icon.png"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#vis">Visualisation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <center>
+            <h1 class="display-4">{{cookiecutter.package_name}}</h1>
+            <hr>
+            <p class="lead text-muted">{{cookiecutter.repository_description}}</p>
+          </center>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container pt-4">
+      <h3 class="pb-3 font-weight-light">Visualisation</h3><a name="vis"></a>
+
+      <!-- Marketing Icons Section -->
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+         <div class="card h-100">
+            <div class="card-body">
+              <p>
+                <center>
+                  <i class="fa fa-pie-chart fa-5x" style="padding-top:20px;"  aria-hidden="true"></i>
+                </center>
+              </p>
+              <h5 class="text-center">Bacterial taxonomic classification</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Type 1</h6>
+              <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+              <center><a href="#" class="btn btn-outline-dark">More</a></center>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <p>
+                <center>
+                  <i class="fa fa-pie-chart fa-5x" style="padding-top:20px;"  aria-hidden="true"></i>
+                </center>
+              </p>
+              <h5 class="text-center">Bacterial taxonomic classification</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Type 2</h6>
+              <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+              <center><a href="#" class="btn btn-outline-dark">More</a></center>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <p>
+                <center>
+                  <i class="fa fa-pie-chart fa-5x" style="padding-top:20px;"  aria-hidden="true"></i>
+                </center>
+              </p>
+              <h5 class="text-center">Bacterial taxonomic classification</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Type 3</h6>
+              <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+              <center><a href="#" class="btn btn-outline-dark">More</a></center>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <p>
+                <center>
+                  <i class="fa fa-pie-chart fa-5x" style="padding-top:20px;"  aria-hidden="true"></i>
+                </center>
+              </p>
+              <h5 class="text-center">Bacterial taxonomic classification</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Type 4</h6>
+              <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+              <center><a href="#" class="btn btn-outline-dark">More</a></center>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <!-- /.row -->
+
+     
+      <div class="row py-4">
+        <div class="col-lg-12">
+          <hr>
+          <h3 class="font-weight-light py-1">Contact</h3>
+            <blockquote>
+              <p>
+	            <b><a href="{{cookiecutter.author_url}}">{{cookiecutter.author_name}}</a></b>
+                <br />
+	            {{cookiecutter.author_title}}
+                <br />
+	            <a href="{{cookiecutter.author_company_url}}">{{cookiecutter.author_company}}</a>
+                <br />
+	            {{cookiecutter.author_company_place}}
+              </p>
+            </blockquote>
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          <a href="imprint.html">Imprint</a>&nbsp;&nbsp;
+          <a href="https://twitter.com/{{cookiecutter.author_twitter}}" title="Twitter"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></a>&nbsp;
+          <a title="LinkedIn profile" href="https://nz.linkedin.com/in/{{cookiecutter.author_linkedin}}" title="LinkedIn"><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i></a>&nbsp;
+          <a title="ORCID profile" href="{{cookiecutter.author_orcid_url}}"><i class="ai ai-orcid ai-fw"></i></a>&nbsp;
+          <a title="Google Scholar profile" href="{{cookiecutter.author_scholar_url}}"><i class="ai ai-google-scholar ai-fw"></i></a>&nbsp;
+          <a href="https://github.com/{{cookiecutter.git_username}}/" title="Github"><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>&nbsp;
+          <a href="https://gitlab.com/u/{{cookiecutter.author_gitlab}}" title="GitLab"><i class="fa fa-gitlab fa-fw" aria-hidden="true"></i></a>
+          <br>
+        <i class="fa fa-copyright" aria-hidden="true"></i> {{cookiecutter.year}} by <a href="{{cookiecutter.author_url}}">{{cookiecutter.author_name}}</a>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
