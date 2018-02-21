@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{cookiecutter.package_name}}</title>
+    <title>{{cookiecutter.repository_name}}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,11 +22,11 @@
     <!-- Favicons -->
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 96x96" href="img/favicon.ico">
 
-    
+
   </head>
 
   <body>
-    
+
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -54,7 +54,7 @@
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <center>
-            <h1 class="display-4">{{cookiecutter.package_name}}</h1>
+            <h1 class="display-4">{{cookiecutter.repository_name}}</h1>
             <hr>
             <p class="lead">{{cookiecutter.repository_description}}</p>
           </center>
@@ -90,26 +90,24 @@
             Every effort is made to keep the website up and running smoothly.
             However, I take no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
           </p>
-          
+
         </div>
-        
+
       </div>
       <!-- /.row -->
 
     </div>
     <!-- /.container -->
-    
+
     <!-- Footer -->
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">
+          <a href="imprint.html">Imprint</a>&nbsp;&nbsp;
           <a href="https://twitter.com/{{cookiecutter.author_twitter}}" title="Twitter"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></a>&nbsp;
-          <a title="LinkedIn profile" href="https://nz.linkedin.com/in/{{cookiecutter.author_linkedin}}" title="LinkedIn"><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i></a>&nbsp;
-          <a title="ORCID profile" href="{{cookiecutter.author_orcid_url}}"><i class="ai ai-orcid ai-fw"></i></a>&nbsp;
-          <a title="Google Scholar profile" href="{{cookiecutter.author_scholar_url}}"><i class="ai ai-google-scholar ai-fw"></i></a>&nbsp;
-          <a href="https://github.com/{{cookiecutter.git_username}}/" title="Github"><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>&nbsp;
-          <a href="https://gitlab.com/u/{{cookiecutter.author_gitlab}}" title="GitLab"><i class="fa fa-gitlab fa-fw" aria-hidden="true"></i></a>
+          <a href="https://github.com/{{cookiecutter.github}}/" title="Github"><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>&nbsp;
+          <a href="https://gitlab.com/{{cookiecutter.gitlab}}" title="GitLab"><i class="fa fa-gitlab fa-fw" aria-hidden="true"></i></a>
           <br>
         <i class="fa fa-copyright" aria-hidden="true"></i> {{cookiecutter.year}} by <a href="{{cookiecutter.author_url}}">{{cookiecutter.author_name}}</a>
       </div>
