@@ -3,6 +3,11 @@
 
 body {
   padding-top: 54px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -12,7 +17,7 @@ body {
 }
 
 a {
-    color: #2b8cbe;
+    color: #0088CC;
 }
 
 .carousel-item {
@@ -27,4 +32,31 @@ a {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+footer {
+  background-color: #183642;
+  color: #8FAEC1;
+}
+
+nav {
+  background-color: #183642;
+  color: #8FAEC1;
+}
+
+/* change the brand and text color */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: #8FAEC1;
+}
+/* change the link color */
+.navbar-nav .nav-item .nav-link {
+    color: #8FAEC1;
+}
+/* change the color of active or hovered links */
+.navbar-nav .nav-item.active .nav-link {
+    color: white;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: white;
 }
